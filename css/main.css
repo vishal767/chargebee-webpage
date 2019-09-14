@@ -10,8 +10,101 @@
 
 /*********************** Write your styles below *************************/
 
-body {
-  font-family: proxima-nova, sans-serif;
+@font-face {
+  font-family: proxima-nova;
+  src: url('../fonts/ProximaNova-Regular.otf');
+}
+
+@font-face {
+  font-family: proxima-nova-light;
+  src: url('../fonts/Proxima\ Nova\ Alt\ Light.otf');
+}
+
+.body {
+  zoom: 1;
+}
+
+.btn.signup {
+  background: #06c587;
+  box-shadow: 0px 4px #04af78;
+  margin: 50px auto;
+  padding: 15px 35px;
+}
+
+.btn.signup > span {
+  color: #ffffff;
+  font-size: 18px;
+  text-shadow: -0px -2px #00000024;
+}
+
+.subscription-banner {
+  margin: 50px auto;
+  text-align: center;
+}
+
+.subscription-banner > h1 {
+  font-family: 'proxima-nova';
   font-style: normal;
-  font-weight: 100;
+  font-size: 36px;
+  color: #525252;
+}
+
+.banner-center {
+  text-align: center;
+}
+
+.subscription-banner > h3 {
+  font-family: 'proxima-nova-light';
+  font-style: normal;
+  font-size: 18px;
+  margin: auto 32%;
+  color: #666666;
+  line-height: 134%;
+}
+
+h5.sub-text {
+  font-family: 'proxima-nova-light';
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #646464;
+}
+
+img.chevron-circle {
+  width: 35px;
+  margin: 30px auto;
+}
+
+.plus-icon-row {
+  overflow: hidden;
+  width: 50%;
+  margin: 0 28%;
+  text-align: center;
+}
+
+.plus-icon-row > .text,
+.plus-icon-row > .img > .plus-icon {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.plus-icon-row > .img > .plus-icon {
+  width: 229px;
+  height: 209px;
+}
+
+.plus-icon-row > .chargebee {
+  font-size: 20px;
+  color: #8ab5d5;
+  text-transform: uppercase;
+  font-style: italic;
+  margin-right: 10px;
+}
+
+.plus-icon-row > .amazon {
+  font-size: 20px;
+  margin-left: 10px;
+  color: #cfa622;
+  font-style: italic;
+  text-transform: uppercase;
 }
