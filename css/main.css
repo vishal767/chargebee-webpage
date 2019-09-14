@@ -108,3 +108,50 @@ img.chevron-circle {
   font-style: italic;
   text-transform: uppercase;
 }
+
+.credit-box {
+  background: #ff5959;
+  padding: 50px;
+  text-align: center;
+}
+
+.credit-box > .description {
+  font-size: 24px;
+  color: #f6f8fc;
+}
+
+.button-row {
+  overflow: hidden;
+  width: 80%;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.button-row > .dots {
+  width: 50px;
+  height: 0px;
+  margin: 2px auto;
+  border-top: 1px dashed #f6f8fc;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.button-row > .button {
+  width: 120px;
+  height: 50px;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 19px;
+  line-height: 50px;
+  color: #f6f8fc;
+  text-transform: capitalize;
+  font-family: 'proxima-nova-light', sans-serif;
+  border: 1px solid #ffffff;
+  border-radius: 40px;
+}
+
+.button-row > .button:hover {
+  color: #0f334f;
+  font-family: 'proxima-nova', sans-serif;
+  background: #f6f8fc;
+}
