@@ -20,6 +20,11 @@
   src: url('../fonts/Proxima\ Nova\ Alt\ Light.otf');
 }
 
+@font-face {
+  font-family: proxima-nova-bold;
+  src: url('../fonts/Proxima\ Nova\ Alt\ Bold.otf');
+}
+
 .body {
   zoom: 1;
 }
@@ -198,4 +203,107 @@ img.chevron-circle {
   color: #f6f8fc;
   font-family: 'proxima-nova-light', sans-serif;
   font-size: 20px;
+}
+
+.recurring {
+  margin: 50px;
+}
+
+.recurring-title {
+  color: #525252;
+  font-size: 32px;
+}
+
+.recurring-descp {
+  color: #525252;
+  font-size: 16px;
+}
+
+ul.fa-ul > li {
+  margin: 15px auto;
+}
+
+.fa-check {
+  color: #6e78b4;
+  font-size: 16px;
+}
+
+.list-title {
+  color: #333333;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: 'proxima-nova-bold', sans-serif;
+}
+
+.list-descp {
+  font-family: 'proxima-nova-light', sans-serif;
+  color: #333333;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.reviews {
+  text-align: left;
+  margin-top: 10px;
+}
+
+.review-title {
+  color: #525252;
+  font-size: 26px;
+  line-height: 30px;
+  font-family: 'proxima-nova-light';
+  margin-bottom: 50px;
+}
+
+.review-box > .descp {
+  color: #646464;
+  position: relative;
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: 'proxima-nova-light', sans-serif;
+  margin: 10px;
+  margin-right: 10%;
+  padding-right: 20px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #ccc8c6;
+}
+
+.review-box > .descp > .tilt {
+  position: absolute;
+  bottom: -8px;
+  left: 35px;
+  width: 15px;
+  height: 15px;
+  background: #ffffff;
+  border: 1px solid #ccc8c6;
+  border-top: 0;
+  border-left: 0;
+  transform: rotateY(0deg) rotate(45deg);
+}
+
+.review-box > .company {
+  padding: 10px;
+}
+
+.review-box > .company > img,
+.review-box > .company > .descp {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.review-box > .company > img {
+  width: 40px;
+  height: 40px;
+}
+
+.review-box > .company > .descp > .title {
+  color: #646464;
+  font-size: 14px;
+  line-height: 12px;
+}
+
+.review-box > .company > .descp > .site {
+  color: #06c587;
+  font-size: 14px;
+  line-height: 16px;
 }
