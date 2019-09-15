@@ -1,0 +1,350 @@
+/************************************************************************
+   ___ _                          _               
+  / __\ |__   __ _ _ __ __ _  ___| |__   ___  ___ 
+ / /  | '_ \ / _` | '__/ _` |/ _ \ '_ \ / _ \/ _ \
+/ /___| | | | (_| | | | (_| |  __/ |_) |  __/  __/
+\____/|_| |_|\__,_|_|  \__, |\___|_.__/ \___|\___|
+                       |___/                      
+
+/*********************** Commenting is sexy ******************************/
+
+/*********************** Write your styles below *************************/
+
+@font-face {
+  font-family: proxima-nova;
+  src: url('../fonts/ProximaNova-Regular.otf');
+}
+
+@font-face {
+  font-family: proxima-nova-light;
+  src: url('../fonts/Proxima\ Nova\ Alt\ Light.otf');
+}
+
+@font-face {
+  font-family: proxima-nova-bold;
+  src: url('../fonts/Proxima\ Nova\ Alt\ Bold.otf');
+}
+
+.body {
+  zoom: 1;
+}
+
+.btn.signup {
+  background: #06c587;
+  box-shadow: 0px 4px #04af78;
+  margin: 50px auto;
+  padding: 15px 35px;
+}
+
+.btn.signup > span {
+  color: #ffffff;
+  font-size: 18px;
+  text-shadow: -0px -2px #00000024;
+}
+
+.subscription-banner {
+  margin: 50px auto;
+  text-align: center;
+}
+
+.subscription-banner > h1 {
+  font-family: 'proxima-nova-bold';
+  font-style: normal;
+  font-size: 24px;
+  color: #525252;
+  margin: auto 30%;
+}
+
+.banner-center {
+  text-align: center;
+}
+
+.subscription-banner > h3 {
+  font-family: 'proxima-nova-light';
+  font-style: normal;
+  font-size: 18px;
+  margin: auto 20%;
+  margin-top: 10px;
+  color: #666666;
+  line-height: 134%;
+}
+
+h5.sub-text {
+  display: none;
+}
+
+img.chevron-circle {
+  display: none;
+}
+
+.plus-icon-row {
+  overflow: hidden;
+  text-align: center;
+}
+
+.plus-icon-row > .text,
+.plus-icon-row > .img > .plus-icon {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.plus-icon-row > .img > .plus-icon {
+  width: 129px;
+  height: 109px;
+}
+
+.plus-icon-row > .chargebee {
+  font-size: 12px;
+  color: #8ab5d5;
+  text-transform: uppercase;
+  font-style: italic;
+  margin-right: 10px;
+}
+
+.plus-icon-row > .amazon {
+  font-size: 12px;
+  margin-left: 10px;
+  color: #cfa622;
+  font-style: italic;
+  text-transform: uppercase;
+  width: 68px;
+}
+
+.credit-box {
+  background: #ff5959;
+  padding: 50px;
+  text-align: center;
+}
+
+.credit-box > .description {
+  font-size: 24px;
+  color: #f6f8fc;
+}
+
+.button-row {
+  overflow: auto;
+  margin-top: 20px;
+  white-space: nowrap;
+  text-align: center;
+}
+
+.button-row > .dots {
+  width: 50px;
+  height: 0px;
+  margin: 2px auto;
+  border-top: 1px dashed #f6f8fc;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.button-row > .button {
+  width: 120px;
+  height: 50px;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 19px;
+  line-height: 50px;
+  color: #f6f8fc;
+  text-transform: capitalize;
+  font-family: 'proxima-nova-light', sans-serif;
+  border: 1px solid #ffffff;
+  border-radius: 40px;
+}
+
+.button-row > .button:hover {
+  color: #0f334f;
+  font-family: 'proxima-nova', sans-serif;
+  background: #f6f8fc;
+}
+
+.customer-box {
+  display: none;
+}
+
+.checkout-box {
+  width: 360px;
+  height: 560px;
+  border: 1px dashed #407eb2;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  border-top: 0px;
+  margin-bottom: 50px;
+  text-align: center;
+  margin-left: auto;
+}
+
+.checkout-circle {
+  width: 47px;
+  height: 47px;
+  border: 1px solid #407eb2;
+  border-radius: 50%;
+  margin: 15px auto;
+}
+
+.checkout-img {
+  width: 320px;
+  height: 475px;
+}
+
+.customer-text {
+  margin: 30% auto 30% 30px;
+}
+
+.customer-text-1 {
+  color: #f6f8fc;
+  font-size: 36px;
+}
+
+.customer-text-2 {
+  color: #f6f8fc;
+  font-family: 'proxima-nova-light', sans-serif;
+  font-size: 20px;
+}
+
+.recurring {
+  margin: 50px;
+}
+
+.recurring-title {
+  color: #525252;
+  font-size: 32px;
+}
+
+.recurring-descp {
+  color: #525252;
+  font-size: 16px;
+}
+
+ul.fa-ul > li {
+  margin: 15px auto;
+}
+
+.fa-check {
+  color: #6e78b4;
+  font-size: 16px;
+}
+
+.list-title {
+  color: #333333;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: 'proxima-nova-bold', sans-serif;
+}
+
+.list-descp {
+  font-family: 'proxima-nova-light', sans-serif;
+  color: #333333;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.reviews {
+  text-align: left;
+  margin-top: 10px;
+}
+
+.review-clients {
+  height: 200px;
+  overflow: auto;
+}
+
+.review-title {
+  color: #525252;
+  font-size: 32px;
+  line-height: 30px;
+  font-family: 'proxima-nova-light';
+  margin: 30px 50px;
+  margin-left: 10px;
+}
+
+.review-box > .descp {
+  color: #646464;
+  position: relative;
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: 'proxima-nova-light', sans-serif;
+  margin: 10px;
+  margin-right: 10%;
+  padding-right: 20px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #ccc8c6;
+}
+
+.review-box > .descp > .tilt {
+  position: absolute;
+  bottom: -8px;
+  left: 35px;
+  width: 15px;
+  height: 15px;
+  background: #ffffff;
+  border: 1px solid #ccc8c6;
+  border-top: 0;
+  border-left: 0;
+  transform: rotateY(0deg) rotate(45deg);
+}
+
+.review-box > .company {
+  padding: 10px;
+}
+
+.review-box > .company > img,
+.review-box > .company > .descp {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.review-box > .company > img {
+  width: 40px;
+  height: 40px;
+}
+
+.review-box > .company > .descp > .title {
+  color: #646464;
+  font-size: 14px;
+  line-height: 12px;
+}
+
+.review-box > .company > .descp > .site {
+  color: #06c587;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.clients {
+  background: #27292f;
+  text-align: center;
+}
+
+.client-img > img {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 35px 15px;
+  height: 50px;
+}
+
+.client-img > img:nth-child(3) {
+  display: none;
+}
+
+.footer {
+  background: #ffffff;
+  text-align: center;
+  position: relative;
+  padding-bottom: 50px;
+}
+
+.footer-text > img {
+  position: absolute;
+  bottom: 15px;
+  left: 33%;
+  height: 30px;
+}
+
+.footer-text > span {
+  font-size: 18px;
+  color: #6b5c5c;
+  display: block;
+  margin: 20px 15px;
+  text-transform: uppercase;
+  font-family: 'proxima-nova-light';
+}
