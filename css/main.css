@@ -155,3 +155,47 @@ img.chevron-circle {
   font-family: 'proxima-nova', sans-serif;
   background: #f6f8fc;
 }
+
+.customer-box {
+  background: #0e314f;
+}
+
+.checkout-box {
+  width: 360px;
+  height: 560px;
+  border: 1px dashed #407eb2;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  border-top: 0px;
+  margin-bottom: 50px;
+  text-align: center;
+  margin-left: auto;
+}
+
+.checkout-circle {
+  width: 47px;
+  height: 47px;
+  border: 1px solid #407eb2;
+  border-radius: 50%;
+  margin: 15px auto;
+}
+
+.checkout-img {
+  width: 320px;
+  height: 475px;
+}
+
+.customer-text {
+  margin: 30% auto 30% 30px;
+}
+
+.customer-text-1 {
+  color: #f6f8fc;
+  font-size: 36px;
+}
+
+.customer-text-2 {
+  color: #f6f8fc;
+  font-family: 'proxima-nova-light', sans-serif;
+  font-size: 20px;
+}
