@@ -307,3 +307,15 @@ ul.fa-ul > li {
   font-size: 14px;
   line-height: 16px;
 }
+
+.clients {
+  background: #27292f;
+  text-align: center;
+}
+
+.client-img > img {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 70px 15px;
+  height: 50px;
+}
